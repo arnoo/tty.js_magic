@@ -1,4 +1,6 @@
-node_modules/
+node_modules/*
+!node_modules/term.js_magic
+!node_modules/term.js_magic/*
 *.swp
 build/*
 .lock-wscript
