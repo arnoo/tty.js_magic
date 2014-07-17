@@ -854,7 +854,7 @@ Tab.prototype.setProcessName = function(name) {
   }
 
   this.process = name;
-  this.button.title = name;
+  this.button.innerHTML = name;
 
   if (this.window.focused === this) {
     // if (this.title) {
